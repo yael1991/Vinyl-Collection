@@ -1,8 +1,8 @@
 # Vinyl Collection DataBase
 
-Este modelo de base de datos en MySQL permite poder gestionar tu colección de vinilo. Además te permite saber en que lugar tienes almacenados tus discos.
+This model of database  (MySQL) allow you to keep track of your vinyl collection. In addition it allows you to know where every vinyl is stored any time, any moment.
 
-Los campos que permite controlar son:
-* Disco (titulo, artista y año)
-* Edicion (nº de catalogo, sello, año, pais y formato)
-* Ejemplar (estado de conservacion, precio de compra y lugar donde está guardado)
+You can control:
+* The record (title, artist and year)
+* Edicion (Cat#, label, year, country and format)
+* Copy (condition, price and place where it is stored)
