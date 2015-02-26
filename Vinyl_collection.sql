@@ -132,7 +132,7 @@ CREATE TABLE `Ejemplar` (
   `idEdicion` varchar(30) NOT NULL ,
   `idDisco` varchar(40) NOT NULL ,
   `Conservacion` varchar(4) NOT NULL ,
-  `Precio Compra` varchar(10) NOT NULL,
+  `Precio Compra` numeric(10) NOT NULL,
   `Sitio` varchar(10) NOT NULL, 
   PRIMARY KEY  (`idEjemplar`,`idEdicion`,`idDisco`),
   CONSTRAINT `FK_ejemplar_disco` FOREIGN KEY (`idDisco`) REFERENCES `Disco` (`idDisco`),
@@ -142,9 +142,9 @@ CREATE TABLE `Ejemplar` (
 ) ENGINE=InnoDB;
 
 
-INSERT `Ejemplar` VALUES ('#1','USA_2003_12','Elephant_WS','VG','20,00€','01/12');
-INSERT `Ejemplar` VALUES ('#2','UK_2012_10','Elephant_TI','M','10,00€','03/24');
-INSERT `Ejemplar` VALUES ('#1','D_2014_12','Salad Days_MD','G','30,00€','02/05');
+INSERT `Ejemplar` VALUES ('#1','USA_2003_12','Elephant_WS','VG','20.00','01/12');
+INSERT `Ejemplar` VALUES ('#2','UK_2012_10','Elephant_TI','M','10.00','03/24');
+INSERT `Ejemplar` VALUES ('#1','D_2014_12','Salad Days_MD','G','30.00','02/05');
 
 
 
